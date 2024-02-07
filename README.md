@@ -6,11 +6,11 @@ The entire training process is divided into two parts: data preprocessing and mo
 
 ### Data preprocessing
 - Work for me:
-1. Remove html, 
-2. Remove metion, 
-3. Split connective (i.e. HowAreYou -> How are you), 
-4. Lower case transformation
-5. Contractions
+    1. Remove html, 
+    2. Remove metion, 
+    3. Split connective (i.e. HowAreYou -> How are you), 
+    4. Lower case transformation
+    5. Contractions
 
 ``` python
 class MyPreProcessor:
@@ -89,11 +89,11 @@ class MyPreProcessor:
 
 ```
 - Not work for me:
-1. Remove emoji
-2. Spell correction (Jamspell)
+    1. Remove emoji
+    2. Spell correction (Jamspell)
 
 - TODO
-1. NER
+    1. NER
 
 
 ### Model training
