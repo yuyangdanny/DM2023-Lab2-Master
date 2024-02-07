@@ -86,7 +86,12 @@ class MyPreProcessor:
         text = self.contractions(text)
 
         return text
-
+```
+Here is the example for using the preprocessor 
+``` python
+preprocessor = MyPreProcessor()
+tqdm.pandas()
+train_df['text'] = train_df['text'].progress_apply(preprocessor)
 ```
 - Not work for me:
     1. Remove emoji
