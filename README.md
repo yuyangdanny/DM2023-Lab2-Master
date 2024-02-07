@@ -6,8 +6,6 @@ The entire training process is divided into two parts: data preprocessing and mo
 
 ### Data preprocessing
 - Work for me:
-
-I use data preprocessing such as: 
 1. Remove html, 
 2. Remove metion, 
 3. Split connective (i.e. HowAreYou -> How are you), 
